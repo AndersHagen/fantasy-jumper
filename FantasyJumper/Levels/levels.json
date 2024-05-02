@@ -1,0 +1,253 @@
+[
+	{
+		"Id": 0,
+		"Time": 150,
+		"StartPosition": {
+			"X": 640,
+			"Y": 700
+		},
+		"TileMapData": {
+			"TileSet": "dungeon",
+			"Width": 30,
+			"Height": 17,
+			"TileWidth": 64,
+			"TileHeight": 64,
+			"Map": [
+				"           $  $            $ $",
+				"$$$$                       $ $",
+				"          <====>          <===",
+				"=====>             <==>       ",
+				"            $ $               ",
+				" $                          $ ",
+				" $ <====>   <===>           $ ",
+				" $                            ",
+				" $                  <==>      ",
+				" $                            ",
+				"       $$$$$               <==",
+				"                              ",
+				"                <======>      ",
+				"      <=====>               $$",
+				"        $ $                 $$",
+				"                              ",
+				"------------------------------"
+			]
+		},
+		"Enemies": [],
+		"Platforms": []
+	},
+	{
+		"Id": 1,
+		"Time": 150,
+		"StartPosition": {
+			"X": 120,
+			"Y": 700
+		},
+		"TileMapData": {
+			"TileSet": "dungeon",
+			"Width": 30,
+			"Height": 17,
+			"TileWidth": 64,
+			"TileHeight": 64,
+			"Map": [
+				"                              ",
+				"   $ $ $ $                    ",
+				"                <=>           ",
+				"   <===========>              ",
+				"                              ",
+				"                  <> <>       ",
+				"                              ",
+				"               <>             ",
+				"                       $      ",
+				"                 <=>          ",
+				"        $ $ $ $ $ $ $         ",
+				"                       <=>    ",
+				"                              ",
+				"         <==>   <==>          ",
+				"                              ",
+				"                              ",
+				"------------------------------"
+			]
+		},
+		"Enemies": [
+			{
+				"Texture": "dark_demon_3",
+				"StartPosition": {
+					"X": 1300,
+					"Y": 922
+				},
+				"MinXPosition": 200,
+				"MaxXPosition": 1700
+			},
+						{
+				"Texture": "dark_demon_1",
+				"StartPosition": {
+					"X": 300,
+					"Y": 90
+				},
+				"MinXPosition": 150,
+				"MaxXPosition": 900
+			}
+		],
+		"Platforms": []
+	},
+	{
+		"Id": 2,
+		"Time": 100,
+		"StartPosition": {
+			"X": 120,
+			"Y": 860
+		},
+		"TileMapData": {
+			"TileSet": "dungeon",
+			"Width": 30,
+			"Height": 17,
+			"TileWidth": 64,
+			"TileHeight": 64,
+			"Map": [
+				"                              ",
+				"$                            $",
+				"                              ",
+				"====>        <==>        <====",
+				"$$                          $$",
+				"                              ",
+				"                              ",
+				"====>                    <====",
+				"$$                          $$",
+				"                              ",
+				"                              ",
+				"====>                    <====",
+				"                              ",
+				" $ $ $    <=??????=>    $ $ $ ",
+				"                              ",
+				"                              ",
+				"------------------------------"
+			]
+		},
+		"Enemies": [],
+		"Platforms": [
+			{
+				"StartTileCoord": {
+					"X": 7,
+					"Y": 1
+				},
+				"NumberOfTilesWide": 4,
+				"MovesVertically": true,
+				"MinTilePosition": 1,
+				"MaxTilePosition": 12
+			},
+			{
+				"StartTileCoord": {
+					"X": 19,
+					"Y": 1
+				},
+				"NumberOfTilesWide": 4,
+				"MovesVertically": true,
+				"MinTilePosition": 1,
+				"MaxTilePosition": 12
+			}
+		]
+	},	
+	{
+		"Id": 3,
+		"Time": 100,
+		"StartPosition": {
+			"X": 120,
+			"Y": 800
+		},
+		"TileMapData": {
+			"TileSet": "dungeon",
+			"Width": 30,
+			"Height": 17,
+			"TileWidth": 64,
+			"TileHeight": 64,
+			"Map": [
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"      $ $ $        $ $ $      ",
+				"                              ",
+				"    <=?=?=?=>    <=?=?=?=>    ",
+				"                              ",
+				"                              ",
+				"------------------------------"
+			]
+		},
+		"Enemies": [],
+		"Platforms": []
+	},
+	{
+		"Id": 4,
+		"Time": 100,
+		"StartPosition": {
+			"X": 120,
+			"Y": 860
+		},
+		"TileMapData": {
+			"TileSet": "dungeon",
+			"Width": 30,
+			"Height": 17,
+			"TileWidth": 64,
+			"TileHeight": 64,
+			"Map": [
+				"                              ",
+				"                              ",
+				"                              ",
+				"         $                    ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                        $     ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"                              ",
+				"       BB                     ",
+				"      bbbbB                   ",
+				"------------------------------"
+			]
+		},
+		"Enemies": [],
+		"Platforms": [
+			{
+				"StartTileCoord": {
+					"X": 1,
+					"Y": 4
+				},
+				"NumberOfTilesWide": 4,
+				"MovesVertically": true,
+				"MinTilePosition": 4,
+				"MaxTilePosition": 13
+			},
+			{
+				"StartTileCoord": {
+					"X": 5,
+					"Y": 4
+				},
+				"NumberOfTilesWide": 3,
+				"MovesVertically": false,
+				"MinTilePosition": 5,
+				"MaxTilePosition": 14
+			},
+			{
+				"StartTileCoord": {
+					"X": 17,
+					"Y": 6
+				},
+				"NumberOfTilesWide": 4,
+				"MovesVertically": true,
+				"MinTilePosition": 6,
+				"MaxTilePosition": 10
+			}
+		]
+	}
+]
